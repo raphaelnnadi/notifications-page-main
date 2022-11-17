@@ -89,6 +89,10 @@ body {
   align-items: center;
 }
 
+.rizky-avi {
+  margin-top: -10em;
+}
+
 .opened-message {
   width: 85%;
   margin: 1em auto;
