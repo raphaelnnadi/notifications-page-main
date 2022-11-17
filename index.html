@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/script.js"></script>
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="head">
+        <h1 class="header">Notifications</h1>
+        <span class="counter"></span>
+      </div>
+
+      <div class="mark-all">
+        <p class="mark">Mark all as read</p>
+      </div>
+    </div>
+
+    <div class="notifications">
+      <div class="notif-updates unread">
+        <img src="/assets/images/avatar-mark-webber.webp" alt="mark-avi" class="mark-avi">
+        <div class="description ">
+          <p class="details"><strong>Mark Webber</strong> reacted to your recent post<b> My first tournament
+              today!</b>
+          </p>
+          <p class="time after">1m ago</p>
+        </div>
+      </div>
+      <div class="notif-updates unread">
+        <img src="/assets/images/avatar-angela-gray.webp" alt="angela-avi" class="angela-avi">
+        <div class="description">
+          <p class="details short-notification"><strong>Angela Gray</strong> followed you</p>
+          <p class="time  short-notification after">5m ago</p>
+        </div>
+      </div>
+      <div class="notif-updates unread">
+        <img src="/assets/images/avatar-jacob-thompson.webp" alt="jacob-avi" class="jacob-avi">
+        <div class="description">
+          <p class="details"><strong>Jacob Thompson</strong> has joined your group <strong class="link">Chess
+              Club</strong>
+          </p>
+          <p class="time after">1 day ago</p>
+        </div>
+      </div>
+
+      <div class="notif-updates read">
+        <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-avi" class="rizky-avi">
+        <div class="private-message">
+          <div class="description pri-profile">
+            <p class="details "><strong>Rizky Hasanuddin</strong> sent you a private message</p>
+            <p class="time read-time">5 days ago</p>
+          </div>
+          <div class="opened-message">
+            <p class="message">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="notif-updates read">
+        <img src="/assets/images/avatar-kimberly-smith.webp" alt="kimberly-avi" class="kimberly-avi">
+        <div class="description">
+          <p class="details"><strong>Kimberly Smith</strong> commented on your picture</p>
+          <p class="time read-time">1 week ago</p>
+        </div>
+        <img src="/assets/images/image-chess.webp" alt="chess-img" class="chess-img">
+      </div>
+
+      <div class="notif-updates read">
+        <img src="/assets/images/avatar-nathan-peterson.webp" alt="nathan-avi" class="nathan-avi">
+        <div class="description">
+          <p class="details"> <strong>Nathan Peterson</strong> reacted to your recent post
+            <b>5 end-game strategies to increase your win rate</b>
+          </p>
+          <p class="time read-time">2 weeks ago</p>
+        </div>
+      </div>
+
+      <div class="notif-updates read">
+        <img src="/assets/images/avatar-anna-kim.webp" alt="anna-avi" class="anna-avi">
+        <div class="description" id="short-notification">
+          <p class="details"><strong>Anna Kim</strong> left the group <strong class="link">Chess
+              Club</strong></p>
+          <p class="time read-time">2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
